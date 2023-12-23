@@ -1,0 +1,301 @@
+[
+    {
+        "type": "Protagonist",
+        "name": "Default Protagonist",
+        "specialAbility": "Default Special Ability",
+        "strength": 18,
+        "constitution": 15,
+        "dexterity": 12,
+        "intelligence": 10,
+        "wisdom": 8,
+        "charisma": 20,
+        "holyAura": 25,
+        "reputation": 100
+    },
+    
+    {
+        "type": "Antagonist",
+        "name": "Default Antagonist",
+        "specialAbility": "Default Special Ability",
+        "strength": 10,
+        "constitution": 14,
+        "dexterity": 16,
+        "intelligence": 18,
+        "wisdom": 20,
+        "charisma": 12,
+        "darkAura": 30,
+        "fear": 80
+    },
+    
+    {
+        "type": "Sorcerer",
+        "name": "Satoru Gojo",
+        "specialAbility": "Hollow Technique: Purple",
+        "strength": 1000,
+        "constitution": 943,
+        "dexterity": 655,
+        "intelligence": 1000,
+        "wisdom": 776,
+        "charisma": 942,
+        "holyAura": 545,
+        "reputation": 1000,
+        "innateTechnique": 1000
+    },
+    
+    {
+        "type": "Sorcerer",
+        "name": "Yuji Itadori",
+        "specialAbility": "Divergent Fist",
+        "strength": 150,
+        "constitution": 50,
+        "dexterity": 110,
+        "intelligence": 230,
+        "wisdom": 400,
+        "charisma": 110,
+        "holyAura": 200,
+        "reputation": 300,
+        "innateTechnique": 100
+    },
+    
+    {
+        "type": "Sorcerer",
+        "name": "Yuta Okkotsu",
+        "specialAbility": "Copy",
+        "strength": 250,
+        "constitution": 150,
+        "dexterity": 90,
+        "intelligence": 120,
+        "wisdom": 130,
+        "charisma": 210,
+        "holyAura": 220,
+        "reputation": 320,
+        "innateTechnique": 900
+    },
+    
+    {
+        "type": "DemonSlayer",
+        "name": "Tanjiro Kamado",
+        "specialAbility": "Sun Breathing",
+        "strength": 350,
+        "constitution": 120,
+        "dexterity": 230,
+        "intelligence": 130,
+        "wisdom": 122,
+        "charisma": 214,
+        "holyAura": 324,
+        "reputation": 420,
+        "demonSlayerMark": 1000
+    },
+    
+    {
+        "type": "DemonSlayer",
+        "name": "Sanemi Shinazugawa",
+        "specialAbility": "Sun Breathing Thirteenth Form",
+        "strength": 262,
+        "constitution": 313,
+        "dexterity": 154,
+        "intelligence": 129,
+        "wisdom": 343,
+        "charisma": 153,
+        "holyAura": 256,
+        "reputation": 132,
+        "demonSlayerMark": 750
+    },
+    
+    {
+        "type": "DemonSlayer",
+        "name": "Tengen Uzui",
+        "specialAbility": "Sound Breathing Fifth Form: String Performance",
+        "strength": 321,
+        "constitution": 531,
+        "dexterity": 231,
+        "intelligence": 542,
+        "wisdom": 321,
+        "charisma": 654,
+        "holyAura": 234,
+        "reputation": 865,
+        "demonSlayerMark": 343
+    },
+    
+    {
+        "type": "SoulRipper",
+        "name": "Ichigo Kurosaki",
+        "specialAbility": "Heaven Chain Slaying Moon",
+        "strength": 643,
+        "constitution": 756,
+        "dexterity": 345,
+        "intelligence": 756,
+        "wisdom": 345,
+        "charisma": 678,
+        "holyAura": 345,
+        "reputation": 567,
+        "spiritualPower": 456
+    },
+    
+    {
+        "type": "SoulRipper",
+        "name": "Shunsui Kyōraku",
+        "specialAbility": "Bones of Heavenly Blooming Madness: Withering Pine Lovers' Suicide",
+        "strength": 853,
+        "constitution": 423,
+        "dexterity": 231,
+        "intelligence": 542,
+        "wisdom": 653,
+        "charisma": 231,
+        "holyAura": 654,
+        "reputation": 234,
+        "spiritualPower": 654
+    },
+    
+    {
+        "type": "SoulRipper",
+        "name": "Kisuke Urahara",
+        "specialAbility": "Modification of the Crimson Princess' Dissection at the Doors of Avalokiteśvara",
+        "strength": 431,
+        "constitution": 654,
+        "dexterity": 867,
+        "intelligence": 1000,
+        "wisdom": 765,
+        "charisma": 234,
+        "holyAura": 876,
+        "reputation": 456,
+        "spiritualPower": 456
+    },
+    
+    {
+        "type": "CursedSpirit",
+        "name": "Ryomen Sukuna",
+        "specialAbility": "Domain Expansion: Malevolent Shrine",
+        "strength": 1000,
+        "constitution": 867,
+        "dexterity": 857,
+        "intelligence": 1000,
+        "wisdom": 576,
+        "charisma": 876,
+        "darkAura": 345,
+        "fear": 1000,
+        "cursedEnergy": 1000
+    },
+    
+    {
+        "type": "CursedSpirit",
+        "name": "Mahito",
+        "specialAbility": "Domain Expansion: Self-Embodiment of Perfection",
+        "strength": 564,
+        "constitution": 765,
+        "dexterity": 533,
+        "intelligence": 756,
+        "wisdom": 345,
+        "charisma": 654,
+        "darkAura": 345,
+        "fear": 876,
+        "cursedEnergy": 534
+    },
+    
+    {
+        "type": "CursedSpirit",
+        "name": "Jogo",
+        "specialAbility": "Domain Expansion: Coffin of the Iron Mountain",
+        "strength": 634,
+        "constitution": 345,
+        "dexterity": 456,
+        "intelligence": 756,
+        "wisdom": 345,
+        "charisma": 867,
+        "darkAura": 456,
+        "fear": 878,
+        "cursedEnergy": 645
+    },
+    
+    {
+        "type": "Demon",
+        "name": "Muzan Kibutsuji",
+        "specialAbility": "Biokinesis",
+        "strength": 1000,
+        "constitution": 645,
+        "dexterity": 876,
+        "intelligence": 567,
+        "wisdom": 987,
+        "charisma": 789,
+        "darkAura": 978,
+        "fear": 1000,
+        "bloodDemonArt": 999
+    },
+    
+    {
+        "type": "Demon",
+        "name": "Michikatsu Tsugikuni",
+        "specialAbility": "Moon Breathing: Sixteenth Form: Moonbow, Half Moon",
+        "strength": 999,
+        "constitution": 645,
+        "dexterity": 756,
+        "intelligence": 867,
+        "wisdom": 567,
+        "charisma": 432,
+        "darkAura": 765,
+        "fear": 876,
+        "bloodDemonArt": 999
+    },
+    
+    {
+        "type": "Demon",
+        "name": "Akaza",
+        "specialAbility": "Destructive Death",
+        "strength": 765,
+        "constitution": 978,
+        "dexterity": 785,
+        "intelligence": 567,
+        "wisdom": 864,
+        "charisma": 867,
+        "darkAura": 244,
+        "fear": 798,
+        "bloodDemonArt": 789
+    },
+    
+    {
+        "type": "Hollow",
+        "name": "Coyote Starrk",
+        "specialAbility": "Los Lobos",
+        "strength": 654,
+        "constitution": 565,
+        "dexterity": 345,
+        "intelligence": 678,
+        "wisdom": 564,
+        "charisma": 789,
+        "darkAura": 567,
+        "fear": 756,
+        "hollowFlash": 546
+    },
+    
+    {
+        "type": "Hollow",
+        "name": "Ulquiorra Cifer",
+        "specialAbility": "Murciélago",
+        "strength": 564,
+        "constitution": 987,
+        "dexterity": 677,
+        "intelligence": 467,
+        "wisdom": 797,
+        "charisma": 578,
+        "darkAura": 356,
+        "fear": 998,
+        "hollowFlash": 677
+    },
+    
+    {
+        "type": "Hollow",
+        "name": "Baraggan Louisenbairn",
+        "specialAbility": "Arrogante",
+        "strength": 765,
+        "constitution": 534,
+        "dexterity": 567,
+        "intelligence": 345,
+        "wisdom": 567,
+        "charisma": 876,
+        "darkAura": 567,
+        "fear": 456,
+        "hollowFlash": 459
+    }
+]
+
+

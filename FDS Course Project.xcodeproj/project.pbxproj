@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C140BC62B14D03D007705C7 /* Protagonist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C140BC52B14D03D007705C7 /* Protagonist.cpp */; };
+		1C140BD62B189015007705C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C140BD52B189015007705C7 /* main.cpp */; };
+		1C140BE52B189383007705C7 /* Antagonist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3202AFAFDE8007A13D7 /* Antagonist.cpp */; };
+		1C140BE62B189383007705C7 /* Sorcerer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3232AFB029A007A13D7 /* Sorcerer.cpp */; };
+		1C140BE72B189383007705C7 /* DemonSlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3262AFB02A7007A13D7 /* DemonSlayer.cpp */; };
+		1C140BE82B189383007705C7 /* SoulRipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3292AFB02B6007A13D7 /* SoulRipper.cpp */; };
+		1C140BE92B189383007705C7 /* CursedSpirit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C32C2AFB02C5007A13D7 /* CursedSpirit.cpp */; };
+		1C140BEA2B189383007705C7 /* Demon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C32F2AFB02D0007A13D7 /* Demon.cpp */; };
+		1C140BEB2B189383007705C7 /* Hollow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3332AFB02ED007A13D7 /* Hollow.cpp */; };
+		1C140BEC2B189383007705C7 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9193BB2AFD3B9B00181DDF /* Character.cpp */; };
+		1C140BED2B189383007705C7 /* Protagonist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C140BC52B14D03D007705C7 /* Protagonist.cpp */; };
+		1C9193BD2AFD3B9B00181DDF /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9193BB2AFD3B9B00181DDF /* Character.cpp */; };
+		1C98C3112AFAA9AB007A13D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3102AFAA9AB007A13D7 /* main.cpp */; };
+		1C98C3222AFAFDE8007A13D7 /* Antagonist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3202AFAFDE8007A13D7 /* Antagonist.cpp */; };
+		1C98C3252AFB029A007A13D7 /* Sorcerer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3232AFB029A007A13D7 /* Sorcerer.cpp */; };
+		1C98C3282AFB02A7007A13D7 /* DemonSlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3262AFB02A7007A13D7 /* DemonSlayer.cpp */; };
+		1C98C32B2AFB02B6007A13D7 /* SoulRipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3292AFB02B6007A13D7 /* SoulRipper.cpp */; };
+		1C98C32E2AFB02C5007A13D7 /* CursedSpirit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C32C2AFB02C5007A13D7 /* CursedSpirit.cpp */; };
+		1C98C3312AFB02D1007A13D7 /* Demon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C32F2AFB02D0007A13D7 /* Demon.cpp */; };
+		1C98C3352AFB02ED007A13D7 /* Hollow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C3332AFB02ED007A13D7 /* Hollow.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C140BD12B189015007705C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1C98C30B2AFAA9AB007A13D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C140BC52B14D03D007705C7 /* Protagonist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Protagonist.cpp; sourceTree = "<group>"; };
+		1C140BC82B16B334007705C7 /* characters.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = characters.json; sourceTree = "<group>"; };
+		1C140BCA2B175106007705C7 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		1C140BD32B189015007705C7 /* Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C140BD52B189015007705C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1C9193BB2AFD3B9B00181DDF /* Character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		1C9193BC2AFD3B9B00181DDF /* Character.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
+		1C98C30D2AFAA9AB007A13D7 /* FDS Course Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FDS Course Project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C98C3102AFAA9AB007A13D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1C98C31E2AFAFDD0007A13D7 /* Protagonist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Protagonist.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		1C98C3202AFAFDE8007A13D7 /* Antagonist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Antagonist.cpp; sourceTree = "<group>"; };
+		1C98C3212AFAFDE8007A13D7 /* Antagonist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Antagonist.hpp; sourceTree = "<group>"; };
+		1C98C3232AFB029A007A13D7 /* Sorcerer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sorcerer.cpp; sourceTree = "<group>"; };
+		1C98C3242AFB029A007A13D7 /* Sorcerer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sorcerer.hpp; sourceTree = "<group>"; };
+		1C98C3262AFB02A7007A13D7 /* DemonSlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DemonSlayer.cpp; sourceTree = "<group>"; };
+		1C98C3272AFB02A7007A13D7 /* DemonSlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DemonSlayer.hpp; sourceTree = "<group>"; };
+		1C98C3292AFB02B6007A13D7 /* SoulRipper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SoulRipper.cpp; sourceTree = "<group>"; };
+		1C98C32A2AFB02B6007A13D7 /* SoulRipper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SoulRipper.hpp; sourceTree = "<group>"; };
+		1C98C32C2AFB02C5007A13D7 /* CursedSpirit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CursedSpirit.cpp; sourceTree = "<group>"; };
+		1C98C32D2AFB02C5007A13D7 /* CursedSpirit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CursedSpirit.hpp; sourceTree = "<group>"; };
+		1C98C32F2AFB02D0007A13D7 /* Demon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demon.cpp; sourceTree = "<group>"; };
+		1C98C3302AFB02D0007A13D7 /* Demon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demon.hpp; sourceTree = "<group>"; };
+		1C98C3332AFB02ED007A13D7 /* Hollow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hollow.cpp; sourceTree = "<group>"; };
+		1C98C3342AFB02ED007A13D7 /* Hollow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hollow.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C140BD02B189015007705C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C98C30A2AFAA9AB007A13D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C140BC72B16B23D007705C7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1C140BCA2B175106007705C7 /* json.hpp */,
+				1C140BC82B16B334007705C7 /* characters.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		1C140BD42B189015007705C7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C140BD52B189015007705C7 /* main.cpp */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1C98C3042AFAA9AB007A13D7 = {
+			isa = PBXGroup;
+			children = (
+				1C98C30F2AFAA9AB007A13D7 /* Source Code */,
+				1C140BD42B189015007705C7 /* Tests */,
+				1C98C30E2AFAA9AB007A13D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C98C30E2AFAA9AB007A13D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C98C30D2AFAA9AB007A13D7 /* FDS Course Project */,
+				1C140BD32B189015007705C7 /* Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C98C30F2AFAA9AB007A13D7 /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				1C140BC72B16B23D007705C7 /* JSON */,
+				1C98C3192AFAAA00007A13D7 /* Implementation */,
+				1C98C3182AFAA9F9007A13D7 /* Headers */,
+			);
+			path = "Source Code";
+			sourceTree = "<group>";
+		};
+		1C98C3182AFAA9F9007A13D7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1C98C3242AFB029A007A13D7 /* Sorcerer.hpp */,
+				1C98C32A2AFB02B6007A13D7 /* SoulRipper.hpp */,
+				1C98C3272AFB02A7007A13D7 /* DemonSlayer.hpp */,
+				1C98C3212AFAFDE8007A13D7 /* Antagonist.hpp */,
+				1C98C3302AFB02D0007A13D7 /* Demon.hpp */,
+				1C98C31E2AFAFDD0007A13D7 /* Protagonist.hpp */,
+				1C98C32D2AFB02C5007A13D7 /* CursedSpirit.hpp */,
+				1C98C3342AFB02ED007A13D7 /* Hollow.hpp */,
+				1C9193BC2AFD3B9B00181DDF /* Character.hpp */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		1C98C3192AFAAA00007A13D7 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				1C98C3102AFAA9AB007A13D7 /* main.cpp */,
+				1C98C3202AFAFDE8007A13D7 /* Antagonist.cpp */,
+				1C98C3232AFB029A007A13D7 /* Sorcerer.cpp */,
+				1C98C3262AFB02A7007A13D7 /* DemonSlayer.cpp */,
+				1C98C3292AFB02B6007A13D7 /* SoulRipper.cpp */,
+				1C98C32C2AFB02C5007A13D7 /* CursedSpirit.cpp */,
+				1C98C32F2AFB02D0007A13D7 /* Demon.cpp */,
+				1C98C3332AFB02ED007A13D7 /* Hollow.cpp */,
+				1C9193BB2AFD3B9B00181DDF /* Character.cpp */,
+				1C140BC52B14D03D007705C7 /* Protagonist.cpp */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C140BD22B189015007705C7 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C140BD72B189015007705C7 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				1C140BCF2B189015007705C7 /* Sources */,
+				1C140BD02B189015007705C7 /* Frameworks */,
+				1C140BD12B189015007705C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 1C140BD32B189015007705C7 /* Tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		1C98C30C2AFAA9AB007A13D7 /* FDS Course Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C98C3142AFAA9AB007A13D7 /* Build configuration list for PBXNativeTarget "FDS Course Project" */;
+			buildPhases = (
+				1C98C3092AFAA9AB007A13D7 /* Sources */,
+				1C98C30A2AFAA9AB007A13D7 /* Frameworks */,
+				1C98C30B2AFAA9AB007A13D7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FDS Course Project";
+			productName = "FDS Course Project";
+			productReference = 1C98C30D2AFAA9AB007A13D7 /* FDS Course Project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C98C3052AFAA9AB007A13D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1C140BD22B189015007705C7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1C98C30C2AFAA9AB007A13D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1C98C3082AFAA9AB007A13D7 /* Build configuration list for PBXProject "FDS Course Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C98C3042AFAA9AB007A13D7;
+			productRefGroup = 1C98C30E2AFAA9AB007A13D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C98C30C2AFAA9AB007A13D7 /* FDS Course Project */,
+				1C140BD22B189015007705C7 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C140BCF2B189015007705C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C140BE52B189383007705C7 /* Antagonist.cpp in Sources */,
+				1C140BE62B189383007705C7 /* Sorcerer.cpp in Sources */,
+				1C140BE72B189383007705C7 /* DemonSlayer.cpp in Sources */,
+				1C140BE82B189383007705C7 /* SoulRipper.cpp in Sources */,
+				1C140BE92B189383007705C7 /* CursedSpirit.cpp in Sources */,
+				1C140BEA2B189383007705C7 /* Demon.cpp in Sources */,
+				1C140BEB2B189383007705C7 /* Hollow.cpp in Sources */,
+				1C140BEC2B189383007705C7 /* Character.cpp in Sources */,
+				1C140BED2B189383007705C7 /* Protagonist.cpp in Sources */,
+				1C140BD62B189015007705C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C98C3092AFAA9AB007A13D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C140BC62B14D03D007705C7 /* Protagonist.cpp in Sources */,
+				1C98C32B2AFB02B6007A13D7 /* SoulRipper.cpp in Sources */,
+				1C98C3112AFAA9AB007A13D7 /* main.cpp in Sources */,
+				1C98C3352AFB02ED007A13D7 /* Hollow.cpp in Sources */,
+				1C9193BD2AFD3B9B00181DDF /* Character.cpp in Sources */,
+				1C98C32E2AFB02C5007A13D7 /* CursedSpirit.cpp in Sources */,
+				1C98C3312AFB02D1007A13D7 /* Demon.cpp in Sources */,
+				1C98C3222AFAFDE8007A13D7 /* Antagonist.cpp in Sources */,
+				1C98C3252AFB029A007A13D7 /* Sorcerer.cpp in Sources */,
+				1C98C3282AFB02A7007A13D7 /* DemonSlayer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C140BD82B189015007705C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVUKTZ7453;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C140BD92B189015007705C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVUKTZ7453;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C98C3122AFAA9AB007A13D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1C98C3132AFAA9AB007A13D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1C98C3152AFAA9AB007A13D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVUKTZ7453;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C98C3162AFAA9AB007A13D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVUKTZ7453;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C140BD72B189015007705C7 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C140BD82B189015007705C7 /* Debug */,
+				1C140BD92B189015007705C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C98C3082AFAA9AB007A13D7 /* Build configuration list for PBXProject "FDS Course Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C98C3122AFAA9AB007A13D7 /* Debug */,
+				1C98C3132AFAA9AB007A13D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C98C3142AFAA9AB007A13D7 /* Build configuration list for PBXNativeTarget "FDS Course Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C98C3152AFAA9AB007A13D7 /* Debug */,
+				1C98C3162AFAA9AB007A13D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C98C3052AFAA9AB007A13D7 /* Project object */;
+}
